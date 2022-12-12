@@ -1,5 +1,12 @@
-function App() {
-  return <div className="App">Hello world</div>;
+import React from 'react'
+import LandingPage from './components/LandingPage';
+
+const App = () => {
+  return (
+    <>
+      <LandingPage />
+    </>
+  )
 }
 
-export default App;
+export default App
